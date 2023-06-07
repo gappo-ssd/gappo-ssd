@@ -1,6 +1,6 @@
 # GAPPO-SSD
 
-This is the codebase for "Efficient Foraging Behaviour Through Reinforcement Learning with Graph-Based Communication". 
+This is the codebase for "Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication". 
 A short video demo of the behavior of trained GAPPO agents can be found [here](https://youtu.be/PjarLSBFKMk).
 GAPPO is implemented using the RLlib Reinforcement Learning library and PyTorch Geometric a library used to train Graph Neural Networks (GNNs) for a wide range of applications. 
 This codebase contains the implementation of GAPPO our variant of the Level-Based Foraging environment.
