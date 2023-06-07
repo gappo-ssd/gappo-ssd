@@ -1,0 +1,24 @@
+{
+  "n_episodes": 20000,
+  "experiment_name": "range",
+  "env": {
+    "players": 4,
+    "field_size": 10,
+    "food": {
+      "1": [2, 1],
+      "2": [2, 8]
+    },
+    "max_episode_steps": 50,
+    "food_respawn_interval": 5,
+    "sight": 2,
+    "energy_penalty": -0.01,
+    "food_respawn": true,
+    "grid_observation": true,
+    "communication": {
+      "topology": "range",
+      "communication_args": {
+        "range": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+ray[rllib]==2.4.0
+gym==0.26.2
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==1.13.1+cpu
+torchvision==0.14.1+cpu
+torchaudio==0.13.1
+torch_geometric==2.3.1
+tensorboard==2.13.0
+tensorflow_probability==0.20.1
+pyglet==1.5.27
